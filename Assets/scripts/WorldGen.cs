@@ -46,7 +46,7 @@ public class WorldGen : MonoBehaviour
         oxygen = player.GetComponent<Oxygen>();
         energy = player.GetComponent<Energy>();
 
-        GenInstanceOf(spaceship, spaceShipAmount);
+        gSpaceShip = GenInstanceOf(spaceship, spaceShipAmount);
         GenInstanceOf(stone1, stone1Amount);
         GenInstanceOf(stone2, stone2Amount);
         GenInstanceOf(cosmetic1, cosmetic1Amount);
@@ -57,16 +57,17 @@ public class WorldGen : MonoBehaviour
 
     public void GenTrümmer()
     {
+       // gSpaceShip = GameObject.FindGameObjectWithTag("SpaceShip");
         for (int i = 0; i < trümmerAmount; i++)
         {
-
             Vector3 pos = new Vector3(Random.Range(-mapRadius, mapRadius), Random.Range(-mapRadius, mapRadius), 0);
-            gSpaceShip = GameObject.FindGameObjectWithTag("SpaceShip");
+            
             float distance = Vector3.Distance(pos, gSpaceShip.gameObject.transform.position);
-            if (distance < 50)
+            Debug.Log(pos + ", " + gSpaceShip.gameObject.transform.position);
+            if (distance < 200)
             {
                 Instantiate(trümmerBig, pos, Quaternion.identity);
-            } else if (50 < distance && distance < 150){
+            } else if (distance < 500){
                 Instantiate(trümmerMedium, pos, Quaternion.identity);
             } else
                 Instantiate(trümmerSmall, pos, Quaternion.identity);
@@ -103,14 +104,16 @@ public class WorldGen : MonoBehaviour
         }
     }
 
-    void GenInstanceOf(GameObject thing, int amount)
+    GameObject GenInstanceOf(GameObject thing, int amount)
     {
+        GameObject gThing = null;
         for (int i = 0; i < amount; i++)
         {
 
             Vector3 pos = new Vector3(Random.Range(-mapRadius, mapRadius), Random.Range(-mapRadius, mapRadius), 0);
-            Instantiate(thing, pos, Quaternion.identity);
+            gThing = Instantiate(thing, pos, Quaternion.identity);
         }
+        return gThing;
     }
 
     void GenRegenInstanceOf(GameObject thing, GameObject[] things, int amount)

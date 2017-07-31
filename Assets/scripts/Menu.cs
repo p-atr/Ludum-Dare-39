@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using System;
 
 public class Menu : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Menu : MonoBehaviour
     public GameObject WonUI;
     public GameObject EnergyUI;
     public GameObject OxygenUI;
+    public GameObject UIImage;
+
     public bool inMenu;
     public bool isDead;
     public bool hasWon;
@@ -65,6 +68,9 @@ public class Menu : MonoBehaviour
     }
     public void NewGame()
     {
+        UIImage.gameObject.SetActive(true);
+        Debug.Log("active");
+        UIImage.GetComponent<Intro>().PlayIntro();
         isDead = false;
         EnergyUI.gameObject.SetActive(true);
         OxygenUI.gameObject.SetActive(true);
@@ -96,5 +102,7 @@ public class Menu : MonoBehaviour
             WonUI.gameObject.SetActive(true);
         }
     }
+
+
 
 }

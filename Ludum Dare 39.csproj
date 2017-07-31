@@ -90,6 +90,7 @@
     <Compile Include="Assets\scripts\CameraMovement.cs" />
     <Compile Include="Assets\scripts\EnemyMovement.cs" />
     <Compile Include="Assets\scripts\Energy.cs" />
+    <Compile Include="Assets\scripts\Intro.cs" />
     <Compile Include="Assets\scripts\Menu.cs" />
     <Compile Include="Assets\scripts\OtherMouseMovement.cs" />
     <Compile Include="Assets\scripts\Oxygen.cs" />
