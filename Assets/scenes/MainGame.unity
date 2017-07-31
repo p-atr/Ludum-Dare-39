@@ -3549,7 +3549,7 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1595908455}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3844,7 +3844,7 @@ RectTransform:
   m_Children:
   - {fileID: 1986255202}
   m_Father: {fileID: 1595908455}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3900,7 +3900,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1331670743
@@ -4623,8 +4623,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 455728317}
-  - {fileID: 1331670741}
   - {fileID: 1238639244}
+  - {fileID: 1331670741}
   m_Father: {fileID: 1920061070}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4962,6 +4962,26 @@ Prefab:
         type: 2}
       propertyPath: energyGain
       value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114536587969630800, guid: e93da3566b948724a88d397af3225050,
+        type: 2}
+      propertyPath: maxOxygen
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114536587969630800, guid: e93da3566b948724a88d397af3225050,
+        type: 2}
+      propertyPath: currentOxygen
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114832220035825884, guid: e93da3566b948724a88d397af3225050,
+        type: 2}
+      propertyPath: maxEnergy
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114832220035825884, guid: e93da3566b948724a88d397af3225050,
+        type: 2}
+      propertyPath: currentEnergy
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e93da3566b948724a88d397af3225050, type: 2}
