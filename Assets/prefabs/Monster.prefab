@@ -192,8 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be1299e1b0364264e9b88db8ed34829c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionDistance: 20
-  speed: 1
+  detectionDistance: 40
+  speed: 2
 --- !u!212 &212939754574104154
 SpriteRenderer:
   m_ObjectHideFlags: 1

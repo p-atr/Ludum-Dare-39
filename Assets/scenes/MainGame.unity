@@ -3473,16 +3473,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a2b7d5a361752649b40e741d7a2dda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energyStoneAmount: 80
-  stone1Amount: 40
-  oxygenStoneAmount: 80
-  stone2Amount: 40
-  minDistanceFromPlayer: 30
-  "tr\xFCmmerAmount": 200
+  energyStoneAmount: 120
+  stone1Amount: 80
+  oxygenStoneAmount: 120
+  stone2Amount: 80
+  minDistanceFromPlayer: 20
+  "tr\xFCmmerAmount": 100
   spaceShipAmount: 1
-  cosmetic1Amount: 50
+  cosmetic1Amount: 100
   cosmetic2Amount: 100
-  enemyAmount: 1
+  enemyAmount: 5
   energyStone: {fileID: 1231179273084032, guid: d9dd1f111cc63d344a1a38e6e39779b2,
     type: 2}
   stone1: {fileID: 1469733089057398, guid: fddea6f9ad0891141b7caaa4f6984928, type: 2}
@@ -4946,12 +4946,22 @@ Prefab:
     - target: {fileID: 114800666521625788, guid: e93da3566b948724a88d397af3225050,
         type: 2}
       propertyPath: flashLightCost
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114800666521625788, guid: e93da3566b948724a88d397af3225050,
         type: 2}
       propertyPath: runningCost
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114536587969630800, guid: e93da3566b948724a88d397af3225050,
+        type: 2}
+      propertyPath: oxygenGain
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 114832220035825884, guid: e93da3566b948724a88d397af3225050,
+        type: 2}
+      propertyPath: energyGain
+      value: 2000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e93da3566b948724a88d397af3225050, type: 2}
@@ -5336,7 +5346,7 @@ MonoBehaviour:
   runningCost: 5
   flashLight: {fileID: 590300193}
   flashLightActive: 0
-  flashLightCost: 10
+  flashLightCost: 5
   countertext: {fileID: 0}
   stone1: {fileID: 1469733089057398, guid: fddea6f9ad0891141b7caaa4f6984928, type: 2}
   stone2: {fileID: 1216818722323726, guid: 0919fb9b7a51a6348a4fba5f78228c44, type: 2}
@@ -5356,7 +5366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxOxygen: 10000
   currentOxygen: 10000
-  oxygenGain: 1000
+  oxygenGain: 2000
   oxygenSlider: {fileID: 1077971315}
 --- !u!114 &1814542554
 MonoBehaviour:
@@ -5385,7 +5395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxEnergy: 10000
   currentEnergy: 10000
-  energyGain: 1000
+  energyGain: 2000
   energySlider: {fileID: 1246356997}
 --- !u!1 &1882007899
 GameObject:

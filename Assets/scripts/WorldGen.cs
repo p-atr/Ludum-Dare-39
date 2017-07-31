@@ -64,10 +64,10 @@ public class WorldGen : MonoBehaviour
             
             float distance = Vector3.Distance(pos, gSpaceShip.gameObject.transform.position);
             Debug.Log(pos + ", " + gSpaceShip.gameObject.transform.position);
-            if (distance < 200)
+            if (distance < 150)
             {
                 Instantiate(trümmerBig, pos, Quaternion.identity);
-            } else if (distance < 500){
+            } else if (distance < 400){
                 Instantiate(trümmerMedium, pos, Quaternion.identity);
             } else
                 Instantiate(trümmerSmall, pos, Quaternion.identity);
