@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: a89a8b1dee303ac43ae2ecf6dbc1f47e
+timeCreated: 1501439065
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: monster_animation_0
+    21300002: monster_animation_1
+    21300004: monster_animation_2
+    21300006: monster_animation_3
+    21300008: monster_animation_4
+    21300010: monster_animation_5
+    21300012: monster_animation_6
+    21300014: monster_animation_7
+    21300016: monster_animation_8
+    21300018: monster_animation_9
+    21300020: monster_animation_10
+    21300022: monster_animation_11
+    21300024: monster_animation_12
+    21300026: monster_animation_13
+    21300028: monster_animation_14
+    21300030: monster_animation_15
+    21300032: monster_animation_16
+    21300034: monster_animation_17
+    21300036: monster_animation_18
+    21300038: monster_animation_19
+    21300040: monster_animation_20
+    21300042: monster_animation_21
+    21300044: monster_animation_22
+    21300046: monster_animation_23
+    21300048: monster_animation_24
+    21300050: monster_animation_25
+    21300052: monster_animation_26
+    21300054: monster_animation_27
+    21300056: monster_animation_28
+    21300058: monster_animation_29
+    21300060: monster_animation_30
+    21300062: monster_animation_31
+    21300064: monster_animation_32
+    21300066: monster_animation_33
+    21300068: monster_animation_34
+    21300070: monster_animation_35
+    21300072: monster_animation_36
+    21300074: monster_animation_37
+    21300076: monster_animation_38
+    21300078: monster_animation_39
+    21300080: monster_animation_40
+    21300082: monster_animation_41
+    21300084: monster_animation_42
+    21300086: monster_animation_43
+    21300088: monster_animation_44
+    21300090: monster_animation_45
+    21300092: monster_animation_46
+    21300094: monster_animation_47
+    21300096: monster_animation_48
+    21300098: monster_animation_49
+    21300100: monster_animation_50
+    21300102: monster_animation_51
+    21300104: monster_animation_52
+    21300106: monster_animation_53
+    21300108: monster_animation_54
+    21300110: monster_animation_55
+    21300112: monster_animation_56
+    21300114: monster_animation_57
+    21300116: monster_animation_58
+    21300118: monster_animation_59
+    21300120: monster_animation_60
+    21300122: monster_animation_61
+    21300124: monster_animation_62
+    21300126: monster_animation_63
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster_animation_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1558
+        width: 1003
+        height: 597
+      alignment: 9
+      pivot: {x: 0.45695874, y: 0.47952858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: monster_animation_2
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1555
+        width: 847
+        height: 595
+      alignment: 9
+      pivot: {x: 0.53860086, y: 0.47565445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: monster_animation_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 818
+        width: 1260
+        height: 586
+      alignment: 9
+      pivot: {x: 0.35972264, y: 0.4757174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: monster_animation_4
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 903
+        width: 1370
+        height: 402
+      alignment: 9
+      pivot: {x: 0.33259588, y: 0.45357472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: monster_animation_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 1090
+        height: 514
+      alignment: 9
+      pivot: {x: 0.4171143, y: 0.47662032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
